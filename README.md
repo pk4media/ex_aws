@@ -7,6 +7,7 @@ A flexible easy to use set of AWS APIs.
 - `ExAws.Dynamo`
 - `ExAws.EC2`
 - `ExAws.Kinesis`
+- `ExAws.Firehose`
 - `ExAws.Lambda`
 - `ExAws.RDS`
 - `ExAws.S3`

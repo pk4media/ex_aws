@@ -1,4 +1,4 @@
-defmodule ExAws.Kinesis do
+defmodule ExAws.Firehose do
   @moduledoc """
   Operations on AWS Kinesis Firehose
 
