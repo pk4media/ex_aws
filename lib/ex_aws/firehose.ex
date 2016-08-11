@@ -21,7 +21,7 @@ defmodule ExAws.Firehose do
     {:exclusive_start_delivery_stream_name, binary}
   ]
   @spec list_delivery_streams() :: ExAws.Operation.JSON.t
-  @spec list_delivery_streams(opts :: list_delivery_stream_opts) :: ExAws.Operation.JSON.t
+  @spec list_delivery_streams(opts :: list_delivery_streams_opts) :: ExAws.Operation.JSON.t
   def list_delivery_streams(opts \\ []) do
     data = opts
     |> camelize_keys
